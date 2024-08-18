@@ -5,6 +5,7 @@
 This is a mod that contains any and all relevant assets that are actively
 used by the 12th Marine division in their ArmA 3 campaigns.
 
+Originally found here: https://github.com/nojusr/12thMD_Assets
 ## Contents
 
 The `./addons/` folder contains all of the folders that are to be used in
