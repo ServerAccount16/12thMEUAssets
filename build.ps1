@@ -7,7 +7,7 @@ $pboIncludePath = Join-Path $scriptPath "pbo_include"
 $hemttOutPath = Join-Path $scriptPath ".hemttout\build\addons"
 
 # Execute 'hemtt build --no-rap'
-Start-Process -FilePath "$toolsPath\hemtt" -ArgumentList "build", "--no-rap" -WorkingDirectory $scriptPath -Wait
+Start-Process -FilePath "$toolsPath\hemtt" -ArgumentList "build", "--no-bin" -WorkingDirectory $scriptPath -Wait
 
 # Copy files from './pbo_include' to './.hemttout/build/addons'
 Copy-Item -Path "$pboIncludePath\*" -Destination $hemttOutPath -Recurse -Force

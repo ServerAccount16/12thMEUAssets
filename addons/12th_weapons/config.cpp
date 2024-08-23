@@ -1079,16 +1079,16 @@ class CfgWeapons {
       maxRangeProbab = 0.1;
       aiRateOfFire = 1e-06;
       reloadTime = 0.15;
-      class basesoundmodetype;
-      class standardsound: basesoundmodetype {
+      class BaseSoundModType;
+      class standardsound: BaseSoundModType {
         soundsetshot[] = {"MMG02_Shot_SoundSet", "MMG02_Tail_SoundSet", "MMG02_InteriorTail_SoundSet"};
       };
     };
     class FullAutoFast: FullAuto {
       reloadTime = 0.11;
       textureType = "fastAuto";
-      class basesoundmodetype;
-      class standardsound: basesoundmodetype {
+      class BaseSoundModType;
+      class standardsound: BaseSoundModType {
         soundsetshot[] = {"MMG02_Shot_SoundSet", "MMG02_Tail_SoundSet", "MMG02_InteriorTail_SoundSet"};
       };
     };
@@ -1140,16 +1140,16 @@ class CfgWeapons {
       maxRangeProbab = 0.1;
       aiRateOfFire = 1e-06;
       reloadTime = 0.15;
-      class basesoundmodetype;
-      class standardsound: basesoundmodetype {
+      class BaseSoundModType;
+      class standardsound: BaseSoundModType {
         soundsetshot[] = {"MMG01_Shot_SoundSet", "MMG01_Tail_SoundSet", "MMG01_InteriorTail_SoundSet"};
       };
     };
     class FullAutoFast: FullAuto {
       reloadTime = 0.09;
       textureType = "fastAuto";
-      class basesoundmodetype;
-      class standardsound: basesoundmodetype {
+      class BaseSoundModType;
+      class standardsound: BaseSoundModType {
         soundsetshot[] = {"MMG01_Shot_SoundSet", "MMG01_Tail_SoundSet", "MMG01_InteriorTail_SoundSet"};
       };
     };

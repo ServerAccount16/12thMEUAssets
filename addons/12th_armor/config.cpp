@@ -150,7 +150,10 @@ class CfgPatches {
       "A3_Armor_F_Beta",
       "A3_Soft_F",
       "OPTRE_UNSC_Units",
-      "DMNS_Units"
+      "DMNS_Units",
+      "cba_main",
+      "ace_main",
+      "19th_Fleet_Armor"
     };
   };
 };
