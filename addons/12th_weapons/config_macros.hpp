@@ -1,6 +1,7 @@
 #define COMMON_GL_MAGS            \
 "M319_HE_Grenade_Shell",          \
-"M319_HEDP_Grenade_Shell",        \
+"M319_HEDP_Grenade_Shell",		  \
+"M319_HEAT_Grenade_Shell",        \
 "M319_Buckshot",                  \
 "M319_Smoke",                     \
 "M319_Smoke_Orange",              \
