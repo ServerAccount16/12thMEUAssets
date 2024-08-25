@@ -54,6 +54,18 @@ class CfgVehicles {
         name = "kat_naloxone";
         count = 25;
       };
+      class _xx_kat_AFAK {
+        name = "kat_IFAK";
+        count = 10;
+      };
+      class _xx_kat_IFAK {
+        name = "kat_IFAK";
+        count = 60;
+      };
+      class _xx_kat_MFAK {
+        name = "kat_MFAK";
+        count = 10;
+      };
       class _xx_kat_Painkiller {
         name = "kat_Painkiller";
         count = 25;
