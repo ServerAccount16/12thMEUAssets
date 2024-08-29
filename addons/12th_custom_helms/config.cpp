@@ -44,6 +44,7 @@ class CfgPatches {
       "12th_ch_Bess",
       "12th_ch_Bretek",
       "12th_ch_Broad",
+      "12th_ch_Bunge",
       "12th_ch_Cain",
       "12th_ch_Coady",
       "12th_ch_Cole",
@@ -98,6 +99,7 @@ class CfgPatches {
       "12th_ch_Bess_nv",
       "12th_ch_Bretek_nv",
       "12th_ch_Broad_nv",
+      "12th_ch_Bunge_nv",
       "12th_ch_Cain_nv",
       "12th_ch_Coady_nv",
       "12th_ch_Cole_nv",
@@ -194,6 +196,7 @@ class CfgWeapons {
   CUSTOM_HELM_S_AV(Bobby)
   CUSTOM_HELM_S_AV(Bretek)
   CUSTOM_HELM_S_AV(Broad)
+  CUSTOM_HELM_S_AV(Bunge)
   CUSTOM_HELM_S_AV(Cain)
   CUSTOM_HELM_S_AV(Coady)
   CUSTOM_HELM_S_AV(Cole)
@@ -310,6 +313,7 @@ class XtdGearModels {
           "Bobby",
           "Bretek",
           "Broad",
+          "Bunge",
           "Cain",
           "Coady",
           "Cole",
@@ -374,6 +378,7 @@ class XtdGearInfos {
     CH_HELM_S_GI(Bobby)
     CH_HELM_S_GI(Bretek)
     CH_HELM_S_GI(Broad)
+    CH_HELM_S_GI(Bunge)
     CH_HELM_S_GI(Cain)
     CH_HELM_S_GI(Coady)
     CH_HELM_S_GI(Cole)
