@@ -37,4 +37,5 @@
 "OPTRE_signalSmokeO",             \
 "OPTRE_signalSmokeP",             \
 "OPTRE_signalSmokeR",             \
-"OPTRE_signalSmokeY"
+"OPTRE_signalSmokeY",             \
+"12th_40mm_heat"

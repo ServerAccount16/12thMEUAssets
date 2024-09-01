@@ -187,6 +187,17 @@ class CfgMagazines {
   class OPTRE_100Rnd_762x51_Box;
   class OPTRE_60Rnd_5x23mm_Mag;
   class RPG32_HE_F;
+  class M319_HEAT_Grenade_Shell;
+
+  class 12th_40mm_heat: M319_HEAT_Grenade_Shell {
+    scope = 2;
+    displayName = "[12th] 40mm HEAT";
+    displaynameshort = "40mm HEAT";
+    ammo = "12th_40mmG_HEAT";
+    author = "Waylen";
+    mass = 8;
+  };
+
   class 12th_ma5c_mag_nerf: OPTRE_32Rnd_762x51_Mag {
     displayName = "32Drt 12.7x73mm Clip";
     displaynameshort = "12.7x73mm Dart";
@@ -287,6 +298,13 @@ class CBA_DisposableLaunchers {
 class CfgAmmo {
   class B_45ACP_Ball;
   class M_NLAW_AT_F;
+  class M319_HEAT;
+
+  class 12th_40mmG_HEAT: M319_HEAT {
+    ace_frag_metal = 2000;
+    indirectHitRange = 0.1;
+    hit = 500;
+  };
   class 12th_ma5c_ammo_nerf: B_45ACP_Ball {
     hit = 1;
     typicalSpeed = 1500;
