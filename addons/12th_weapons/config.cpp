@@ -855,7 +855,7 @@ class CfgWeapons {
             };
             class UnderBarrelSlot: UnderBarrelSlot {
                 compatibleitems[] = {
-                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk"
+                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk", "dzn_tripod_rifle"
                 };
             };
         };
@@ -917,7 +917,7 @@ class CfgWeapons {
             };
             class UnderBarrelSlot: UnderBarrelSlot {
                 compatibleitems[] = {
-                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk"
+                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk", "dzn_MG_Tripod_Universal"
                 };
             };
         };
@@ -980,7 +980,7 @@ class CfgWeapons {
             };
             class UnderBarrelSlot: UnderBarrelSlot {
                 compatibleitems[] = {
-                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk"
+                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk", "dzn_MG_Tripod_Universal"
                 };
             };
         };
@@ -1028,7 +1028,7 @@ class CfgWeapons {
             };
             class UnderBarrelSlot: UnderBarrelSlot {
                 compatibleitems[] = {
-                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk"
+                    "bipod_01_F_blk", "bipod_02_F_blk", "bipod_03_F_blk", "dzn_MG_Tripod_Universal"
                 };
             };
         };
@@ -1163,7 +1163,7 @@ class CfgWeapons {
                 };
             };
             class UnderBarrelSlot: UnderBarrelSlot {
-                compatibleitems[] = { "bipod_01_F_blk" };
+                compatibleitems[] = { "bipod_01_F_blk", "dzn_MG_Tripod_Universal" };
             };
         };
     };

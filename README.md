@@ -26,7 +26,7 @@ PBO file.
 * `12th_ui` contains a set of loading screens and splash screens. Made to be a separate PBO specifically to allow people to use our other PBO's without seeing the 12th's stuff splattered all over it.
 
 The `./pbo_include` folder contains all of our 3rd party PBOS that are to be
-included into the mod. Currently the PBOs included are listed in this link: https://pastebin.com/VtVWdYdB
+included into the mod. Currently the PBOs included are listed in this link: https://pastebin.com/RPFdREG3
 
 ## Building/Testing
 
