@@ -4,7 +4,7 @@
 // are more meant to hide away all of the nasty bits so that the
 // code in the main config takes up less space.
 
-#define P(PATH) \x\12thmd_assets\addons\12th_vehicles\##PATH
+#define P(PATH) \x\12thMEUAssets\addons\12th_vehicles\##PATH
 #define QP(PATH) #P(PATH)
 
 #define WARTHOG_TEX_STD_V1 \
@@ -12,8 +12,8 @@ class 12th_warthog_tex_std_v1 { \
   author="Gepard"; \
   displayName="Default"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa" \
   }; \
 };
 
@@ -22,10 +22,10 @@ class 12th_warthog_tex_std_v1 { \
   author="Gepard"; \
   displayName="Default"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\apc_co.paa" \
   }; \
 };
 
@@ -34,10 +34,10 @@ class 12th_warthog_tex_std_v1 { \
   author="Gepard"; \
   displayName="Default"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\medical\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\medical\apc_co.paa" \
   }; \
 };
 
@@ -46,9 +46,9 @@ class 12th_warthog_tex_std_v1 { \
   author="Gepard"; \
   displayName="Default"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -57,10 +57,10 @@ class 12th_warthog_tex_std_v1 { \
   author="Gepard"; \
   displayName="Default"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -70,10 +70,10 @@ class 12th_warthog_tex_std_v1 { \
   author="Gepard"; \
   displayName="Default"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -82,8 +82,8 @@ class 12th_warthog_tex_std_v2 { \
   author="Gepard"; \
   displayName="Default V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa" \
   }; \
 };
 
@@ -92,10 +92,10 @@ class 12th_warthog_tex_std_v2 { \
   author="Gepard"; \
   displayName="Default V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\apc_co.paa" \
   }; \
 };
 
@@ -104,10 +104,10 @@ class 12th_warthog_tex_std_v2 { \
   author="Gepard"; \
   displayName="Default V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\medical\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\medical\apc_co.paa" \
   }; \
 };
 
@@ -116,9 +116,9 @@ class 12th_warthog_tex_std_v2 { \
   author="Gepard"; \
   displayName="Default V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -127,10 +127,10 @@ class 12th_warthog_tex_std_v2 { \
   author="Gepard"; \
   displayName="Default V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -139,10 +139,10 @@ class 12th_warthog_tex_std_v2 { \
   author="Gepard"; \
   displayName="Default V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -151,8 +151,8 @@ class 12th_warthog_tex_std_v3 { \
   author="Gepard"; \
   displayName="Default V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa" \
   }; \
 };
 
@@ -161,10 +161,10 @@ class 12th_warthog_tex_std_v3 { \
   author="Gepard"; \
   displayName="Default V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\apc_co.paa" \
   }; \
 };
 
@@ -173,10 +173,10 @@ class 12th_warthog_tex_std_v3 { \
   author="Gepard"; \
   displayName="Default V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\medical\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\medical\apc_co.paa" \
   }; \
 };
 
@@ -185,9 +185,9 @@ class 12th_warthog_tex_std_v3 { \
   author="Gepard"; \
   displayName="Default V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\m12_co.paa" \
   }; \
 };
 
@@ -196,10 +196,10 @@ class 12th_warthog_tex_std_v3 { \
   author="Gepard"; \
   displayName="Default V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\m12_co.paa" \
   }; \
 };
 
@@ -208,10 +208,10 @@ class 12th_warthog_tex_std_v3 { \
   author="Gepard"; \
   displayName="Default V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default_v2\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default_v2\m12_co.paa" \
   }; \
 };
 
@@ -220,8 +220,8 @@ class 12th_warthog_tex_flames { \
   author="Gepard"; \
   displayName="Flames"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\flames\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\flames\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa" \
   }; \
 };
 
@@ -230,9 +230,9 @@ class 12th_warthog_tex_flames { \
   author="Gepard"; \
   displayName="Flames"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\flames\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\flames\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -241,10 +241,10 @@ class 12th_warthog_tex_flames { \
   author="Gepard"; \
   displayName="Flames"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\flames\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\flames\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -253,10 +253,10 @@ class 12th_warthog_tex_flames { \
   author="Gepard"; \
   displayName="Flames"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\flames\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\flames\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -265,8 +265,8 @@ class 12th_warthog_tex_police { \
   author="Gepard"; \
   displayName="Police"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\police\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\police\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa" \
   }; \
 };
 
@@ -275,9 +275,9 @@ class 12th_warthog_tex_police { \
   author="Gepard"; \
   displayName="Police"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\police\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\police\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -286,10 +286,10 @@ class 12th_warthog_tex_police { \
   author="Gepard"; \
   displayName="Police"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\police\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\police\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -298,10 +298,10 @@ class 12th_warthog_tex_police { \
   author="Gepard"; \
   displayName="Police"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\police\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\police\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa" \
   }; \
 };
 
@@ -310,9 +310,9 @@ class 12th_warthog_tex_winter_v1 { \
   author="Gepard"; \
   displayName="Winter V1"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
   }; \
 };
 
@@ -321,10 +321,10 @@ class 12th_warthog_tex_winter_v1 { \
   author="Gepard"; \
   displayName="Winter V1"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\apc_co.paa" \
   }; \
 };
 
@@ -333,10 +333,10 @@ class 12th_warthog_tex_winter_v1 { \
   author="Gepard"; \
   displayName="Winter V1"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_medical\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_medical\apc_co.paa" \
   }; \
 };
 
@@ -345,10 +345,10 @@ class 12th_warthog_tex_winter_v1 { \
   author="Gepard"; \
   displayName="Winter V1"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
   }; \
 };
 
@@ -357,10 +357,10 @@ class 12th_warthog_tex_winter_v1 { \
   author="Gepard"; \
   displayName="Winter V1"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
   }; \
 };
 
@@ -369,9 +369,9 @@ class 12th_warthog_tex_winter_v2 { \
   author="Gepard"; \
   displayName="Winter V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
   }; \
 };
 
@@ -380,10 +380,10 @@ class 12th_warthog_tex_winter_v2 { \
   author="Gepard"; \
   displayName="Winter V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\apc_co.paa" \
   }; \
 };
 
@@ -392,10 +392,10 @@ class 12th_warthog_tex_winter_v2 { \
   author="Gepard"; \
   displayName="Winter V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_medical\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_medical\apc_co.paa" \
   }; \
 };
 
@@ -404,10 +404,10 @@ class 12th_warthog_tex_winter_v2 { \
   author="Gepard"; \
   displayName="Winter V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
   }; \
 };
 
@@ -416,10 +416,10 @@ class 12th_warthog_tex_winter_v2 { \
   author="Gepard"; \
   displayName="Winter V2"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m12_co.paa" \
   }; \
 };
 
@@ -428,9 +428,9 @@ class 12th_warthog_tex_winter_v3 { \
   author="Gepard"; \
   displayName="Winter V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\m12_co.paa" \
   }; \
 };
 
@@ -439,10 +439,10 @@ class 12th_warthog_tex_winter_v3 { \
   author="Gepard"; \
   displayName="Winter V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\apc_co.paa" \
   }; \
 };
 
@@ -451,10 +451,10 @@ class 12th_warthog_tex_winter_v3 { \
   author="Gepard"; \
   displayName="Winter V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_medical\apc_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\troop_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_medical\apc_co.paa" \
   }; \
 };
 
@@ -463,10 +463,10 @@ class 12th_warthog_tex_winter_v3 { \
   author="Gepard"; \
   displayName="Winter V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m68_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m68_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\m12_co.paa" \
   }; \
 };
 
@@ -475,14 +475,14 @@ class 12th_warthog_tex_winter_v3 { \
   author="Gepard"; \
   displayName="Winter V3"; \
   textures[]= { \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\under_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter\m79_co.paa", \
-    "\x\12thmd_assets\addons\12th_vehicles\warthog\winter_v2\m12_co.paa" \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v3\body_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\under_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter\m79_co.paa", \
+    "\x\12thMEUAssets\addons\12th_vehicles\warthog\winter_v2\m12_co.paa" \
   }; \
 };
 
-#define TEMPEST_TEXPATH(BASE, PATH) \x\12thmd_assets\addons\12th_vehicles\tempest\##BASE\##PATH
+#define TEMPEST_TEXPATH(BASE, PATH) \x\12thMEUAssets\addons\12th_vehicles\tempest\##BASE\##PATH
 
 #define TEMPEST_3(SP_PRI,SP_TYPE,CLASS,BASE_CLASS,DISPLAY,CAMO3) \
 class CLASS: BASE_CLASS { \
@@ -622,7 +622,7 @@ class CLASS: BASE_CLASS { \
   }; \
 };
 
-#define HEMTT_TEXPATH(BASE, CAMO3) \x\12thmd_assets\addons\12th_vehicles\hemtt\##BASE\##CAMO3
+#define HEMTT_TEXPATH(BASE, CAMO3) \x\12thMEUAssets\addons\12th_vehicles\hemtt\##BASE\##CAMO3
 
 #define HEMTT_3(SP_PRI,SP_TYPE,CLASS,BASE_CLASS,DISPLAY,CAMO3) \
 class CLASS: BASE_CLASS { \

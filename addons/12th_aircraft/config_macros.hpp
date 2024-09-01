@@ -1,4 +1,4 @@
-#define P(PATH) \x\12thmd_assets\addons\12th_aircraft\##PATH
+#define P(PATH) \x\12thMEUAssets\addons\12th_aircraft\##PATH
 #define QP(PATH) #P(PATH)
 
 #define AIR_SP_INFO(VEH,PRI,TYPE) \
@@ -219,30 +219,30 @@ class textureSources {                       \
 
 #define SPARROWHAWK_TEXTURESETS \
 hiddenSelectionsTextures[]= { \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_01_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_02_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_03_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_04_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_05_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\autocannon_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\feed_autocannon_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa", \
-  "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa" \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_01_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_02_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_03_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_04_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_05_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\autocannon_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\feed_autocannon_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa", \
+  "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa" \
 }; \
 class textureSources { \
   class 12th_sph_tex_default { \
      displayName="Default"; \
      author="Gepard"; \
      textures[] = { \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_01_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_02_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_03_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_04_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\body_05_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\autocannon_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\feed_autocannon_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa" \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_01_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_02_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_03_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_04_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\body_05_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\autocannon_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\feed_autocannon_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa" \
      }; \
      factions[] = {"12th_MEU"}; \
   }; \
@@ -250,15 +250,15 @@ class textureSources { \
      displayName="Winter"; \
      author="Gepard"; \
      textures[] = { \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\winter\body_01_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\winter\body_02_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\winter\body_03_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\winter\body_04_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\winter\body_05_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\winter\autocannon_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\winter\feed_autocannon_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa", \
-       "\x\12thmd_assets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa" \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\winter\body_01_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\winter\body_02_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\winter\body_03_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\winter\body_04_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\winter\body_05_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\winter\autocannon_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\winter\feed_autocannon_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa", \
+       "\x\12thMEUAssets\addons\12th_aircraft\sparrowhawk\default\decal_01_co.paa" \
      }; \
      factions[] = {"12th_MEU"}; \
   }; \

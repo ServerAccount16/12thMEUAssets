@@ -47,6 +47,7 @@ class CfgVehicles {
 
   // warthog base classes
   class OPTRE_M12_FAV_APC;
+  class OPTRE_M12_FAV_APC_MED;
   class OPTRE_M12_FAV;
   class OPTRE_M12_LRV;
   class OPTRE_M12A1_LRV;
@@ -98,8 +99,8 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2"};
     hiddenSelectionsTextures[]= {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa"
     };
     class TextureSources {
       WARTHOG_TEX_STD_V1
@@ -125,10 +126,10 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\apc_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\apc_co.paa"
     };
     // NOTE: the police texture here would look too weird
     class TextureSources {
@@ -143,7 +144,7 @@ class CfgVehicles {
     WARTHOG_SP_INFO(1,APC)
   };
 
-  class 12th_warthog_fav_medical: OPTRE_M12_FAV_APC {
+  class 12th_warthog_fav_medical: OPTRE_M12_FAV_APC_MED {
     scope=2;
     scopeCurator=2;
     author="Kelp";
@@ -154,10 +155,10 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\medical\apc_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\medical\apc_co.paa"
     };
     class TextureSources {
       WARTHOG_TEX_STD_V1_MED
@@ -182,10 +183,10 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\troop_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\apc_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\troop_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\apc_co.paa"
     };
     // NOTE: the police texture here would look too weird
     class TextureSources {
@@ -211,9 +212,9 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa"
     };
     class TextureSources {
       WARTHOG_TEX_STD_V1_M12
@@ -239,9 +240,9 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa"
     };
     class TextureSources {
       WARTHOG_TEX_STD_V1_M12
@@ -267,10 +268,10 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m68_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m68_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa"
     };
     class TextureSources {
       WARTHOG_TEX_STD_V1_M68
@@ -297,10 +298,10 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m79_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m79_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa"
     };
     class TextureSources {
       WARTHOG_TEX_STD_V1_M79
@@ -332,10 +333,10 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Cars";
     hiddenSelections[]= {"camo1", "camo2", "camo3", "camo4"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\body_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\under_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m79_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\warthog\default\m12_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\body_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\under_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m79_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\warthog\default\m12_co.paa"
     };
     class TextureSources {
       WARTHOG_TEX_STD_V1_M79
@@ -407,45 +408,45 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Armor";
     ORYX_SP_INFO(0,Base)
     hiddenSelectionsTextures[]= {
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\armor_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\main_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\net_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\net_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\net_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\turret_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\mg_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\decal_co.paa",
-      "\x\12thmd_assets\addons\12th_vehicles\oryx\default\det2_co.paa"
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\armor_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\main_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\net_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\net_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\net_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\turret_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\mg_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\decal_co.paa",
+      "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\det2_co.paa"
     };
     class TextureSources {
       class 12th_oryx_tex_default {
         displayName="Default";
         author="Gepard";
         textures[]= {
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\armor_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\main_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\net_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\net_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\net_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\turret_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\mg_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\decal_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\det2_co.paa"
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\armor_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\main_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\net_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\net_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\net_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\turret_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\mg_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\decal_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\det2_co.paa"
         };
       };
       class 12th_oryx_tex_winter {
         displayName="Winter";
         author="Gepard";
         textures[]= {
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\winter\armor_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\winter\main_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\winter\net_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\winter\net_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\winter\net_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\winter\turret_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\winter\mg_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\decal_co.paa",
-          "\x\12thmd_assets\addons\12th_vehicles\oryx\default\det2_co.paa"
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\winter\armor_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\winter\main_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\winter\net_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\winter\net_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\winter\net_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\winter\turret_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\winter\mg_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\decal_co.paa",
+          "\x\12thMEUAssets\addons\12th_vehicles\oryx\default\det2_co.paa"
         };
       };
     };

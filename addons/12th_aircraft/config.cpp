@@ -96,28 +96,28 @@ class CfgVehicles {
     editorSubcategory="12th_MEU_Rotary";
     hiddenSelections[]={"camo1"};
     hiddenSelectionsTextures[]={
-      "\x\12thmd_assets\addons\12th_aircraft\hornet\default\hull_co.paa"
+      "\x\12thMEUAssets\addons\12th_aircraft\hornet\default\hull_co.paa"
     };
     class textureSources {
       class 12th_hornet_tex_def {
         displayName="Default";
         author="Gepard";
         textures[]= {
-          "\x\12thmd_assets\addons\12th_aircraft\hornet\default\hull_co.paa"
+          "\x\12thMEUAssets\addons\12th_aircraft\hornet\default\hull_co.paa"
         };
       };
       class 12th_hornet_tex_winter {
         displayName="Winter";
         author="Gepard";
         textures[]= {
-          "\x\12thmd_assets\addons\12th_aircraft\hornet\winter\hull_co.paa"
+          "\x\12thMEUAssets\addons\12th_aircraft\hornet\winter\hull_co.paa"
         };
       };
       class 12th_hornet_tex_cstm_gepard {
         displayName="Custom (Gepard)";
         author="Gepard";
         textures[]= {
-          "\x\12thmd_assets\addons\12th_aircraft\hornet\gepard\hull_co.paa"
+          "\x\12thMEUAssets\addons\12th_aircraft\hornet\gepard\hull_co.paa"
         };
       };
     };
@@ -306,22 +306,22 @@ class CfgVehicles {
       "camo_5"
     };
     hiddenSelectionsTextures[]= {
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\signs_co.paa"
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\signs_co.paa"
     };
     class TextureSources {
       class 12th_wyvern_tex_default {
         displayName="Default";
         author="Gepard";
         textures[]= {
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\signs_co.paa"
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\signs_co.paa"
         };
       };
     };
@@ -346,22 +346,22 @@ class CfgVehicles {
       "camo_5"
     };
     hiddenSelectionsTextures[]= {
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
-      "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\signs_co.paa"
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
+      "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\signs_co.paa"
     };
     class TextureSources {
       class 12th_wyvern_tex_default {
         displayName="Default";
         author="Gepard";
         textures[]= {
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
-          "\x\12thmd_assets\addons\12th_aircraft\wyvern\default\signs_co.paa"
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_01_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_02_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_l_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\ext_03_r_co.paa",
+          "\x\12thMEUAssets\addons\12th_aircraft\wyvern\default\signs_co.paa"
         };
       };
     };

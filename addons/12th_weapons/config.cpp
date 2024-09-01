@@ -392,8 +392,8 @@ class CfgWeapons {
       "camo2"
     };
     hiddenSelectionsTextures[]={
-      "\x\12thmd_assets\addons\12th_weapons\data\m96\tube_co.paa",
-      "\x\12thmd_assets\addons\12th_weapons\data\m96\body_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\m96\tube_co.paa",
+      "\x\12thMEUAssets\addons\12th_weapons\data\m96\body_co.paa"
     };
     model="\DMNS\Weapons\Launchers\DMNS_M96_LAW_loaded.p3d";
     picture="\DMNS\Weapons\Launchers\Data\Law_Icon.paa";
@@ -690,8 +690,8 @@ class CfgWeapons {
         "OPTRE_32Rnd_762x51_Mag_UW"
     };
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\ma5c\default\main_co.paa",
-      "\x\12thmd_assets\addons\12th_weapons\data\ma5c\default\cover_1_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma5c\default\main_co.paa",
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma5c\default\cover_1_co.paa"
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {
       class MuzzleSlot: MuzzleSlot {
@@ -741,8 +741,8 @@ class CfgWeapons {
       "OPTRE_32Rnd_762x51_Mag_UW"
     };
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\ma5c\default\main_co.paa",
-      "\x\12thmd_assets\addons\12th_weapons\data\ma5c\default\cover_1_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma5c\default\main_co.paa",
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma5c\default\cover_1_co.paa"
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {
       class MuzzleSlot: MuzzleSlot {
@@ -782,9 +782,9 @@ class CfgWeapons {
       "camo2"
     };
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\ma5c\nerf\main_co.paa",
-      "\x\12thmd_assets\addons\12th_weapons\data\ma5c\nerf\cover_1_co.paa",
-      "\x\12thmd_assets\addons\12th_weapons\data\ma5c\nerf\cover_2_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma5c\nerf\main_co.paa",
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma5c\nerf\cover_1_co.paa",
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma5c\nerf\cover_2_co.paa"
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {
       class MuzzleSlot: MuzzleSlot {
@@ -813,14 +813,14 @@ class CfgWeapons {
     scope=2;
     scopeArsenal=2;
     canShootInWater=1;
-    mass=40;
+    mass=30;
     displayName="[12th] MA37K Carbine";
     baseWeapon = "12th_ma37k";
     hiddenSelections[] = {
       "camo"
     };
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\ma37k\default\ma37k_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\ma37k\default\ma37k_co.paa"
     };
     magazines[]=
     {
@@ -860,8 +860,8 @@ class CfgWeapons {
     baseWeapon = "12th_br45";
     hiddenSelections[] = {"camo", "camo_details"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\br45\default\br45_co.paa",
-      "\x\12thmd_assets\addons\12th_weapons\data\br45\default\decals_ca.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\br45\default\br45_co.paa",
+      "\x\12thMEUAssets\addons\12th_weapons\data\br45\default\decals_ca.paa"
     };
     magazines[]= {
       "OPTRE_36Rnd_95x40_Mag",
@@ -904,7 +904,7 @@ class CfgWeapons {
     baseWeapon = "12th_m6b";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\m6b\default\m6b_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\m6b\default\m6b_co.paa"
     };
   };
 
@@ -922,7 +922,7 @@ class CfgWeapons {
     baseWeapon = "12th_m6b_glow";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\m6b\night_sight\m6b_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\m6b\night_sight\m6b_co.paa"
     };
   };
 
@@ -934,7 +934,7 @@ class CfgWeapons {
     baseWeapon = "12th_m45";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\m45\default\shotgun_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\m45\default\shotgun_co.paa"
     };
   };
 
@@ -955,7 +955,7 @@ class CfgWeapons {
     };
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\m7\default\m7_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\m7\default\m7_co.paa"
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {
       class MuzzleSlot: MuzzleSlot {
@@ -988,8 +988,8 @@ class CfgWeapons {
       "camo2"
     };
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_weapons\data\commando\default\commando_co.paa",
-      "\x\12thmd_assets\addons\12th_weapons\data\commando\default\commando2_co.paa"
+      "\x\12thMEUAssets\addons\12th_weapons\data\commando\default\commando_co.paa",
+      "\x\12thMEUAssets\addons\12th_weapons\data\commando\default\commando2_co.paa"
     };
     class WeaponSlotsInfo: WeaponSlotsInfo {
       class MuzzleSlot: MuzzleSlot {
@@ -1435,7 +1435,3 @@ class CfgWeapons {
     };
   };*/
 };
-
-/* Include the re-configured M96. */
-// #include "config_m96.hpp"
-

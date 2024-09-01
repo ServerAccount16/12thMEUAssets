@@ -1,7 +1,7 @@
 #define BP_MAXLOAD 425
 #define BP_MASS 60
 
-#define BP_TEXPATH(CAMOTYPE,FILE) \x\12thmd_assets\addons\12th_backpacks\backpack\##CAMOTYPE\##FILE
+#define BP_TEXPATH(CAMOTYPE,FILE) \x\12thMEUAssets\addons\12th_backpacks\backpack\##CAMOTYPE\##FILE
 
 #define BP_DISP(DISPLAY_TYPE) [12th][DISPLAY_TYPE] Backpack
 #define BP_DISP_RTO(DISPLAY_TYPE) [12th][DISPLAY_TYPE] Backpack RTO

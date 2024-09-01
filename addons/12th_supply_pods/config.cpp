@@ -31,7 +31,7 @@ class CfgVehicles {
     transportMaxMagazines = 100;
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_supply_pods\data\pod_co.paa"
+      "\x\12thMEUAssets\addons\12th_supply_pods\data\pod_co.paa"
     };
     class TransportMagazines {};
     class TransportWeapons {};
@@ -41,7 +41,7 @@ class CfgVehicles {
   class 12th_supply_pod_medical: 12th_supply_pod_empty {
     displayName="[12th] Supply Pod (Medical)";
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_supply_pods\data\pod_co_medical.paa"
+      "\x\12thMEUAssets\addons\12th_supply_pods\data\pod_co_medical.paa"
     };
     class TransportMagazines {};
     class TransportWeapons {};
@@ -152,7 +152,7 @@ class CfgVehicles {
   class 12th_supply_pod_ex: 12th_supply_pod_empty {
     displayName="[12th] Supply Pod (Explosives)";
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_supply_pods\data\pod_co_grenades.paa"
+      "\x\12thMEUAssets\addons\12th_supply_pods\data\pod_co_grenades.paa"
     };
     class TransportMagazines {
       class _xx_1Rnd_HE_Grenade_shell {
@@ -252,7 +252,7 @@ class CfgVehicles {
   class 12th_supply_pod_at: 12th_supply_pod_empty {
     displayName="[12th] Supply Pod (Launchers)";
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_supply_pods\data\pod_co_launchers.paa"
+      "\x\12thMEUAssets\addons\12th_supply_pods\data\pod_co_launchers.paa"
     };
     class TransportMagazines {
       class _xx_OPTRE_M41_Twin_HEAT_SACLOS {
@@ -300,7 +300,7 @@ class CfgVehicles {
   class 12th_supply_pod_mortar: 12th_supply_pod_empty {
     displayName="[12th] Supply Pod (Mortars)";
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_supply_pods\data\pod_co_mortar.paa"
+      "\x\12thMEUAssets\addons\12th_supply_pods\data\pod_co_mortar.paa"
     };
     class TransportMagazines {
       class _xx_avm224_M_6Rnd_60mm_HE_0_csw {
@@ -332,7 +332,7 @@ class CfgVehicles {
   class 12th_supply_pod_rifle: 12th_supply_pod_empty {
     displayName="[12th] Supply Pod (Rifle Ammo)";
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_supply_pods\data\pod_co_rifle.paa"
+      "\x\12thMEUAssets\addons\12th_supply_pods\data\pod_co_rifle.paa"
     };
     class TransportMagazines {
       class _xx_OPTRE_32Rnd_762x51_Mag {
@@ -371,7 +371,7 @@ class CfgVehicles {
   class 12th_supply_pod_mg: 12th_supply_pod_empty {
     displayName="[12th] Supply Pod (MG Ammo)";
     hiddenSelectionsTextures[] = {
-      "\x\12thmd_assets\addons\12th_supply_pods\data\pod_co_gunner.paa"
+      "\x\12thMEUAssets\addons\12th_supply_pods\data\pod_co_gunner.paa"
     };
     class TransportMagazines {
       class _xx_12th_95x40_100rnd {

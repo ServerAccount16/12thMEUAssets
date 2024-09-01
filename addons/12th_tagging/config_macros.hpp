@@ -1,4 +1,4 @@
-#define P(PATH) \x\12thmd_assets\addons\12th_tagging\##PATH
+#define P(PATH) \x\12thMEUAssets\addons\12th_tagging\##PATH
 #define QP(PATH) #P(PATH)
 #define Q(INPUT) #INPUT
 #define GLUE(g1,g2) g1##g2

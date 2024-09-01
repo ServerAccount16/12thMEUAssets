@@ -1,5 +1,5 @@
 
-#define P(PATH) \x\12thmd_assets\addons\12th_armor\##PATH
+#define P(PATH) \x\12thMEUAssets\addons\12th_armor\##PATH
 #define QP(PATH) #P(PATH)
 #define GLUE(A,B) A##B
 

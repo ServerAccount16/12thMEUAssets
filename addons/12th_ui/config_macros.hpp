@@ -1,5 +1,5 @@
 
-#define P(PATH) \x\12thmd_assets\addons\12th_ui\##PATH
+#define P(PATH) \x\12thMEUAssets\addons\12th_ui\##PATH
 #define QP(PATH) #P(PATH)
 
 #define RSC_PIC(CLASSNAME,PATH) \

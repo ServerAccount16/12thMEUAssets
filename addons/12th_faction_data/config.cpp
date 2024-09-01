@@ -23,6 +23,20 @@ class CfgFactionClasses {
     priority=99;
     side=1;
   };
+  class 12th_MEU_Ins {
+    displayName="12th Insurrection Assets";
+    icon="";
+    author="12th MEU S-4 Team";
+    priority=99;
+    side=2;
+  };
+  class 12th_MEU_CMA {
+    displayName="12th CMA Assets";
+    icon="";
+    author="12th MEU S-4 Team";
+    priority=99;
+    side=3;
+  };
 };
 
 class CfgEditorCategories {
@@ -31,9 +45,20 @@ class CfgEditorCategories {
     priority=99;
     side=1;
   };
+  class 12th_MEU_Ins {
+    displayName="12th Insurrection Assets";
+    priority=99;
+    side=2;
+  };
+  class 12th_MEU_CMA {
+    displayName="12th CMA Assets";
+    priority=99;
+    side=3;
+  };
 };
 
 class CfgEditorSubcategories {
+  // Start 12th MEU Marine Assets
   class 12th_MEU_Rotary {
     displayName="Rotary";
   };
@@ -51,5 +76,16 @@ class CfgEditorSubcategories {
   };
   class 12th_MEU_FixedWing {
     displayName="Fixed Wing";
+  };
+  class 12th_MEU_Turrets {
+    displayName="Turrets";
+  };
+  // Start 12th Insurrection Assets
+  class 12th_MEU_INS_Turrets {
+    displayName="Turrets";
+  };
+  // Start 12th CMA Assets
+  class 12th_MEU_CMA_Turrets {
+    displayName="Turrets";
   };
 };

@@ -43,7 +43,7 @@ class RscDisplayMain: RscStandardDisplay {
     // Add in a custom 12th logo, this is a hack, don't do this
     class 12thLogo: RscPicture {
       idc=-1;
-      text="\x\12thmd_assets\addons\12th_ui\data\12th_a3_logo.paa";
+      text="\x\12thMEUAssets\addons\12th_ui\data\12th_a3_logo.paa";
       x = "0.46375 * safezoneW + safezoneX";
       y = "0.01 * safezoneH + safezoneY";
       w = "0.07 * safezoneW";

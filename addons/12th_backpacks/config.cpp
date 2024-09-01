@@ -37,7 +37,7 @@ class CfgVehicles {
     scopeArsenal=0;
     picture="";
     displayName="[12th] Backpack Base (DON'T USE)";
-    model= "\x\12thmd_assets\addons\12th_backpacks\backpack\12thkelpbackpack.p3d";
+    model= "\x\12thMEUAssets\addons\12th_backpacks\backpack\12thkelpbackpack.p3d";
     hiddenSelections[]= {
       "Main",
       "Pouches",

@@ -1,4 +1,4 @@
-#define P(PATH) \x\12thmd_assets\addons\12th_vests\##PATH
+#define P(PATH) \x\12thMEUAssets\addons\12th_vests\##PATH
 #define Q(INPUT) #INPUT
 #define GLUE(A,B) A##B
 
@@ -44,8 +44,8 @@ class HitpointsProtectionInfo {  \
   };                             \
 };
 
-#define KIPCHAK_TEXPATH(CAMO,FILE) \x\12thmd_assets\addons\12th_vests\data\kipchak\##CAMO\##FILE
-#define CARRIER_TEXPATH(CAMO,FILE) \x\12thmd_assets\addons\12th_vests\data\carrier_rig\##CAMO\##FILE
+#define KIPCHAK_TEXPATH(CAMO,FILE) \x\12thMEUAssets\addons\12th_vests\data\kipchak\##CAMO\##FILE
+#define CARRIER_TEXPATH(CAMO,FILE) \x\12thMEUAssets\addons\12th_vests\data\carrier_rig\##CAMO\##FILE
 
 #define INVIS_VEST_ITEM_INFO \
 class ItemInfo: VestItem { \
