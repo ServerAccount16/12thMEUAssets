@@ -84,4 +84,14 @@ pbo_include/tsp_animate.pbo filter=lfs diff=lfs merge=lfs -text
 pbo_include/tsp_animate.pbo.ASmallDinosaur.bisign filter=lfs diff=lfs merge=lfs -text
 pbo_include/tsp_animate_ace.pbo filter=lfs diff=lfs merge=lfs -text
 pbo_include/tsp_animate_ace.pbo.ASmallDinosaur.bisign filter=lfs diff=lfs merge=lfs -text
-pbo_include/tsp_animate_radio.pbo filter=lfs diff=lfs merge=l
+pbo_include/tsp_animate_radio.pbo filter=lfs diff=lfs merge=l -text
+pbo_include/dzn_Rifle_Tripod.pbo filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_Rifle_Tripod.pbo.10Dozen.bisign filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod_Core.pbo filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod_Core.pbo.10Dozen.bisign filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod.pbo filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod.pbo.10Dozen.bisign filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod_A3.pbo filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod_A3.pbo.10Dozen.bisign filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod_A3_RifleGestures.pbo filter=lfs diff=lfs merge=lfs -text
+pbo_include/dzn_MG_Tripod_A3_RifleGestures.pbo.10Dozen.bisign filter=lfs diff=lfs merge=lfs -text
