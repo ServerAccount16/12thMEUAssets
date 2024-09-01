@@ -229,9 +229,9 @@ class CfgAmmo {
   class M319_HEAT;
 
   class 12th_40mmG_HEAT: M319_HEAT {
-    ace_frag_metal = 2000;
-    indirectHitRange = 0.1;
-    hit = 500;
+  ace_frag_metal = 2000;
+  indirectHitRange = 0.1;
+  hit = 470;
   };
 
     class 12th_ma5c_ammo_nerf: B_45ACP_Ball {
