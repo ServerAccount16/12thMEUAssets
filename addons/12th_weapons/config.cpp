@@ -1217,6 +1217,7 @@ class CfgWeapons {
       author="Weber";
       scope=2;
       scopeArsenal = 2;
+      canShootInWater = 1;
       displayName="[12th] MA5A";
       baseWeapon = "12th_MA5A";
       magazines[] = COMMON_MA5C_MAGAZINES;
@@ -1226,23 +1227,23 @@ class CfgWeapons {
       author="Weber";
       scope=2;
       scopeArsenal = 2;
+      canShootInWater = 1;
       displayName="[12th] MA5A W/ M301";
       baseWeapon = "12th_MA5A_gl";
-      magazines[] = COMMON_MA5C_MAGAZINES;
-      muzzles[]= {
-        "this", "12th_M301UGL"
-      };
+      muzzles[]= { "this", "12th_M301UGL" };
       class 12th_M301UGL: OPTRE_M301UGL {
         displayName = "M301 Grenade Launcher";
         descriptionShort = "M301 GL";
         magazines[] = { COMMON_GL_MAGS };
       };
+      magazines[] = COMMON_MA5C_MAGAZINES;
     };
 
     class 12th_MA5B: 19_UNSC_MA5B {
       author="Weber";
       scope=2;
       scopeArsenal = 2;
+      canShootInWater = 1;
       displayName="[12th] MA5B";
       baseWeapon = "12th_MA5B";
       magazines[] = {"OPTRE_60Rnd_762x51_Mag"};
