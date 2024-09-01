@@ -115,7 +115,6 @@ class CfgMagazineWells {
 };
 
 class CfgMagazines {
-<<<<<<< HEAD
   class OPTRE_32Rnd_762x51_Mag;
   class OPTRE_36Rnd_95x40_Mag;
   class OPTRE_400Rnd_762x51_Box_Tracer;
@@ -123,6 +122,7 @@ class CfgMagazines {
   class OPTRE_60Rnd_5x23mm_Mag;
   class RPG32_HE_F;
   class M319_HEAT_Grenade_Shell;
+  class OPTRE_60Rnd_762x51_Mag;
 
   class 12th_40mm_heat: M319_HEAT_Grenade_Shell {
     scope = 2;
@@ -140,45 +140,17 @@ class CfgMagazines {
     initspeed=1500;
     ammo = "12th_ma5c_ammo_nerf";
   };
-=======
-    class OPTRE_32Rnd_762x51_Mag;
-    class OPTRE_36Rnd_95x40_Mag;
-    class OPTRE_400Rnd_762x51_Box_Tracer;
-    class OPTRE_100Rnd_762x51_Box;
-    class OPTRE_60Rnd_5x23mm_Mag;
-    class RPG32_HE_F;
-    class OPTRE_60Rnd_762x51_Mag;
->>>>>>> 3fb0c7b1afcf2c5eda08b2ecb57903d21ed315e4
 
-    class 12th_ma5c_mag_nerf: OPTRE_32Rnd_762x51_Mag {
-        displayName = "32Drt 12.7x73mm Clip";
-        displaynameshort = "12.7x73mm Dart";
-        count = 32;
-        initspeed = 1500;
-        ammo = "12th_ma5c_ammo_nerf";
-    };
-
-    class 12th_95x40_100rnd: OPTRE_36Rnd_95x40_Mag {
-        scope = 2;
-        author = "Kelp";
-        displayName = "100rnd 9.5x40mm Box Magazine";
-        ammo = "OPTRE_B_95x40_Ball";
-        count = 100;
-        mass = 40;
-        tracersEvery = 0;
-        lastRoundsTracer = 6;
-    };
-
-    class 12th_95x40_100rnd_T: OPTRE_36Rnd_95x40_Mag {
-        scope = 2;
-        author = "Kelp";
-        displayName = "100rnd 9.5x40mm Box Magazine (Tracer)";
-        ammo = "OPTRE_B_95x40_Ball";
-        count = 100;
-        mass = 40;
-        tracersEvery = 3;
-        lastRoundsTracer = 20;
-    };
+  class 12th_95x40_100rnd: OPTRE_36Rnd_95x40_Mag {
+      scope = 2;
+      author = "Kelp";
+      displayName = "100rnd 9.5x40mm Box Magazine";
+      ammo = "OPTRE_B_95x40_Ball";
+      count = 100;
+      mass = 40;
+      tracersEvery = 0;
+      lastRoundsTracer = 6;
+  };
 
     class 12th_762x51_200rnd: OPTRE_100Rnd_762x51_Box {
         author = "Kelp";
@@ -252,7 +224,6 @@ class CBA_DisposableLaunchers {
 };
 
 class CfgAmmo {
-<<<<<<< HEAD
   class B_45ACP_Ball;
   class M_NLAW_AT_F;
   class M319_HEAT;
@@ -262,65 +233,6 @@ class CfgAmmo {
     indirectHitRange = 0.1;
     hit = 500;
   };
-  class 12th_ma5c_ammo_nerf: B_45ACP_Ball {
-    hit = 1;
-    typicalSpeed = 1500;
-    caliber = 0.5;
-    model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
-    descriptionShort = "Nerf or Nothin'";
-    displayname = "12.7x73mm Nerf Darts";
-    displaynameshort = "12.7x73mm Dart";
-    tracersEvery = 1;
-  };
-  class OPTRE_B_95x40_Ball;
-  class 12th_95x40_UW: OPTRE_B_95x40_Ball {
-    typicalSpeed = 700;
-    waterFriction = -0.00096;
-    timeToLive = 0.12;
-    effectFly = "AmmoUnderwater";
-  };
-  class OPTRE_B_5x23_Caseless;
-  class 12th_5x23mm_UW: OPTRE_B_5x23_Caseless
-  {
-  typicalSpeed=700;
-  waterFriction=-0.00095999998;
-  timeToLive=0.12;
-  effectFly="AmmoUnderwater";
-  };
-  class 12th_m96_rocket_heat : M_NLAW_AT_F {
-    model="DMNS\Weapons\Launchers\M96_rocket.p3d";
-    hit=600;
-    indirectHit=20;
-    indirectHitRange=2;
-    explosive=0.8;
-    cost=500;
-    airFriction=0;
-    sideairFriction=0;
-    coefGravity=0;
-    maxSpeed=450;
-    typicalSpeed=250;
-    initTime=0.2;
-    thrustTime=0.8;
-    thrust=100;
-    fuseDistance=20;
-    simulationStep=0.02;
-    timeToLive=30;
-    effectsMissile="missile3";
-    whistleDist=20;
-    aiAmmoUsageFlags="64 + 128 + 256 + 512";
-    submunitionAmmo="ammo_Penetrator_Titan_AT";
-    submunitionDirectionType="SubmunitionModelDirection";
-    submunitionInitSpeed=1000;
-    submunitionParentSpeedCoef=0;
-    submunitionInitialOffset[]={0, 0, -0.2};
-    triggerOnImpact=1;
-    deleteParentWhenTriggered=0;
-    flightProfiles[]={"Direct"};
-    class Direct {};
-  };
-=======
-    class B_45ACP_Ball;
-    class M_NLAW_AT_F;
 
     class 12th_ma5c_ammo_nerf: B_45ACP_Ball {
         hit = 1;
@@ -380,7 +292,6 @@ class CfgAmmo {
         flightProfiles[] = { "Direct" };
         class Direct {};
     };
->>>>>>> 3fb0c7b1afcf2c5eda08b2ecb57903d21ed315e4
 };
 
 #define COMMON_MA5C_MAGAZINES { "OPTRE_32Rnd_762x51_Mag", "OPTRE_32Rnd_762x51_Mag_Tracer", "OPTRE_32Rnd_762x51_Mag_UW" }
