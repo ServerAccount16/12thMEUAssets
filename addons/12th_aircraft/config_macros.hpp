@@ -60,19 +60,7 @@ class textureSources {                            \
     };                                            \
   factions[] = {"12th_MEU"};                      \
   };                                              \
-  class 12th_d77tc_tex_cstm_styx {                \
-    displayName = "Custom (Gepard)";              \
-    author = "Gepard";                            \
-    textures[] = {                                \
-      QP(pelican\gepard\body_co.paa),             \
-      QP(pelican\default\wings_and_gear_co.paa),  \
-      QP(pelican\default\weaponry_co.paa),        \
-      QP(pelican\default\troop_bay_co.paa),       \
-      QP(pelican\default\doors_co.paa),           \
-      QP(pelican\default\hall_and_cockpit_co.paa) \
-    };                                            \
-    factions[] = {"12th_MEU"};                    \
-  };                                              \
+                                                  \
   class 12th_d77tc_tex_cstm_rich {                \
     displayName = "Custom (Rich)";                \
     author = "Gepard";                            \
@@ -117,19 +105,6 @@ class textureSources {                            \
     author = "Gepard";                            \
     textures[] = {                                \
       QP(pelican\winter_medical\body_co.paa),     \
-      QP(pelican\winter\wings_and_gear_co.paa),   \
-      QP(pelican\winter\weaponry_co.paa),         \
-      QP(pelican\winter\troop_bay_co.paa),        \
-      QP(pelican\winter\doors_co.paa),            \
-      QP(pelican\winter\hall_and_cockpit_co.paa)  \
-    };                                            \
-    factions[] = {"12th_MEU"};                    \
-  };                                              \
-  class 12th_d77tc_tex_winter_cstm_gepard {       \
-    displayName = "Winter Custom (Gepard)";       \
-    author = "Gepard";                            \
-    textures[] = {                                \
-      QP(pelican\winter_gepard\body_co.paa),      \
       QP(pelican\winter\wings_and_gear_co.paa),   \
       QP(pelican\winter\weaponry_co.paa),         \
       QP(pelican\winter\troop_bay_co.paa),        \

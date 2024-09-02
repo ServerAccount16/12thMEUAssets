@@ -39,7 +39,6 @@ class CfgPatches {
       "12th_ch_Alek",
       "12th_ch_Atom",
       "12th_ch_Aurora",
-      "12th_ch_Barley",
       "12th_ch_Bert",
       "12th_ch_Bess",
       "12th_ch_Bretek",
@@ -48,18 +47,15 @@ class CfgPatches {
       "12th_ch_Bunge",
       "12th_ch_Cain",
       "12th_ch_Coady",
-      "12th_ch_Cole",
       "12th_ch_Dixie",
       "12th_ch_Dom",
       "12th_ch_Dras",
-      "12th_ch_Fenix",
       "12th_ch_Fox",
       "12th_ch_Gallegos",
       "12th_ch_Galvin",
       "12th_ch_Geoff",
       "12th_ch_Gepard",
       "12th_ch_Griffin",
-      "12th_ch_Holiday",
       "12th_ch_Kasper",
       "12th_ch_Kelp",
       "12th_ch_Kemble",
@@ -67,18 +63,14 @@ class CfgPatches {
       "12th_ch_King",
       "12th_ch_LeDoux",
       "12th_ch_Link",
-      "12th_ch_Louie",
       "12th_ch_Luerssen",
       "12th_ch_Mitchell",
       "12th_ch_Moss",
-      "12th_ch_Neo",
       "12th_ch_Obi",
       "12th_ch_OConnell",
       "12th_ch_Oliver",
-      "12th_ch_Pandem",
       "12th_ch_Parker",
       "12th_ch_Quebec",
-      "12th_ch_Romanov",
       "12th_ch_Schultz",
       "12th_ch_Shen",
       "12th_ch_Sine",
@@ -86,7 +78,6 @@ class CfgPatches {
       "12th_ch_Skynyrd",
       "12th_ch_Simmons",
       "12th_ch_Smith",
-      "12th_ch_Speirs",
       "12th_ch_Styx",
       "12th_ch_Walker",
       "12th_ch_Waylen",
@@ -95,7 +86,6 @@ class CfgPatches {
       "12th_ch_Alek_nv",
       "12th_ch_Atom_nv",
       "12th_ch_Aurora_nv",
-      "12th_ch_Barley_nv",
       "12th_ch_Bert_nv",
       "12th_ch_Bess_nv",
       "12th_ch_Bretek_nv",
@@ -104,17 +94,14 @@ class CfgPatches {
       "12th_ch_Burns_nv",
       "12th_ch_Cain_nv",
       "12th_ch_Coady_nv",
-      "12th_ch_Cole_nv",
       "12th_ch_Dixie_nv",
       "12th_ch_Dom_nv",
       "12th_ch_Dras_nv",
-      "12th_ch_Fenix_nv",
       "12th_ch_Fox_nv",
       "12th_ch_Gallegos_nv",
       "12th_ch_Galvin_nv",
       "12th_ch_Geoff_nv",
       "12th_ch_Griffin_nv",
-      "12th_ch_Holiday_nv",
       "12th_ch_Kasper_nv",
       "12th_ch_Kelp_nv",
       "12th_ch_Kemble_nv",
@@ -122,18 +109,14 @@ class CfgPatches {
       "12th_ch_King_nv",
       "12th_ch_LeDoux_nv",
       "12th_ch_Link_nv",
-      "12th_ch_Louie_nv",
       "12th_ch_Luerssen_nv",
       "12th_ch_Mitchell_nv",
       "12th_ch_Moss_nv",
-      "12th_ch_Neo_nv",
       "12th_ch_Obi_nv",
       "12th_ch_OConnell_nv",
       "12th_ch_Oliver_nv",
-      "12th_ch_Pandem_nv",
       "12th_ch_Parker_nv",
       "12th_ch_Quebec_nv",
-      "12th_ch_Romanov_nv",
       "12th_ch_Schultz_nv",
       "12th_ch_Shen_nv",
       "12th_ch_Sine_nv",
@@ -141,7 +124,6 @@ class CfgPatches {
       "12th_ch_Skynyrd_nv",
       "12th_ch_Simmons_nv",
       "12th_ch_Smith_nv",
-      "12th_ch_Speirs_nv",
       "12th_ch_Styx_nv",
       "12th_ch_Walker_nv",
       "12th_ch_Waylen_nv",
@@ -192,7 +174,6 @@ class CfgWeapons {
   CUSTOM_HELM_S_AV(Alek)
   CUSTOM_HELM_S_AV(Atom)
   CUSTOM_HELM_S_AV(Aurora)
-  CUSTOM_HELM_S_AV(Barley)
   CUSTOM_HELM_S_AV(Bert)
   CUSTOM_HELM_S_AV(Bess)
   CUSTOM_HELM_S_AV(Bobby)
@@ -202,17 +183,14 @@ class CfgWeapons {
   CUSTOM_HELM_S_AV(Burns)
   CUSTOM_HELM_S_AV(Cain)
   CUSTOM_HELM_S_AV(Coady)
-  CUSTOM_HELM_S_AV(Cole)
   CUSTOM_HELM_S_AV(Dixie)
   CUSTOM_HELM_S_AV(Dom)
   CUSTOM_HELM_S_AV(Dras)
-  CUSTOM_HELM_S_AV(Fenix)
   CUSTOM_HELM_S_AV(Fox)
   CUSTOM_HELM_S_AV(Gallegos)
   CUSTOM_HELM_S_AV(Galvin)
   CUSTOM_HELM_S_AV(Geoff)
   CUSTOM_HELM_S_AV(Griffin)
-  CUSTOM_HELM_S_AV(Holiday)
   CUSTOM_HELM_S_AV(Kasper)
   CUSTOM_HELM_S_AV(Kelp)
   CUSTOM_HELM_S_AV(Kemble)
@@ -220,18 +198,14 @@ class CfgWeapons {
   CUSTOM_HELM_S_AV(King)
   CUSTOM_HELM_S_AV(LeDoux)
   CUSTOM_HELM_S_AV(Link)
-  CUSTOM_HELM_S_AV(Louie)
   CUSTOM_HELM_S_AV(Luerssen)
   CUSTOM_HELM_S_AV(Mitchell)
   CUSTOM_HELM_S_AV(Moss)
-  CUSTOM_HELM_S_AV(Neo)
   CUSTOM_HELM_S_AV(Obi)
   CUSTOM_HELM_S_AV(OConnell)
   CUSTOM_HELM_S_AV(Oliver)
-  CUSTOM_HELM_S_AV(Pandem)
   CUSTOM_HELM_S_AV(Parker)
   CUSTOM_HELM_S_AV(Quebec)
-  CUSTOM_HELM_S_AV(Romanov)
   CUSTOM_HELM_S_AV(Schultz)
   CUSTOM_HELM_S_AV(Shen)
   CUSTOM_HELM_S_AV(Sine)
@@ -240,7 +214,6 @@ class CfgWeapons {
   CUSTOM_HELM_S_AV(Simmons)
   CUSTOM_HELM_S_AV(Smith)
   CUSTOM_HELM_S_AV(Spector)
-  CUSTOM_HELM_S_AV(Speirs)
   CUSTOM_HELM_S_AV(Styx)
   CUSTOM_HELM_S_AV(Walker)
   CUSTOM_HELM_S_AV(Waylen)
@@ -310,7 +283,6 @@ class XtdGearModels {
           "Alek",
           "Atom",
           "Aurora",
-          "Barley",
           "Bert",
           "Bess",
           "Bobby",
@@ -320,18 +292,15 @@ class XtdGearModels {
           "Bunge",
           "Cain",
           "Coady",
-          "Cole",
           "Dixie",
           "Dom",
           "Dras",
-          "Fenix",
           "Fox",
           "Gallegos",
           "Galvin",
           "Geoff",
           "Gepard",
           "Griffin",
-          "Holiday",
           "Kasper",
           "Kelp",
           "Kemble",
@@ -339,18 +308,14 @@ class XtdGearModels {
           "King",
           "LeDoux",
           "Link",
-          "Louie",
           "Luerssen",
           "Mitchell",
           "Moss",
-          "Neo",
           "OConnell",
           "Obi",
           "Oliver",
-          "Pandem",
           "Parker",
           "Quebec",
-          "Romanov",
           "Schultz",
           "Shen",
           "Sine",
@@ -359,7 +324,6 @@ class XtdGearModels {
           "Simmons",
           "Smith",
           "Spector",
-          "Speirs",
           "Styx",
           "Walker",
           "Waylen",
@@ -376,7 +340,6 @@ class XtdGearInfos {
     CH_HELM_S_GI(Alek)
     CH_HELM_S_GI(Atom)
     CH_HELM_S_GI(Aurora)
-    CH_HELM_S_GI(Barley)
     CH_HELM_S_GI(Bert)
     CH_HELM_S_GI(Bess)
     CH_HELM_S_GI(Bobby)
@@ -386,18 +349,15 @@ class XtdGearInfos {
     CH_HELM_S_GI(Bunge)
     CH_HELM_S_GI(Cain)
     CH_HELM_S_GI(Coady)
-    CH_HELM_S_GI(Cole)
     CH_HELM_S_GI(Dixie)
     CH_HELM_S_GI(Dom)
     CH_HELM_S_GI(Dras)
-    CH_HELM_S_GI(Fenix)
     CH_HELM_S_GI(Fox)
     CH_HELM_S_GI(Gallegos)
     CH_HELM_S_GI(Galvin)
     CH_HELM_S_GI(Geoff)
     CH_HELM_S_GI(Gepard)
     CH_HELM_S_GI(Griffin)
-    CH_HELM_S_GI(Holiday)
     CH_HELM_S_GI(Kasper)
     CH_HELM_S_GI(Kelp)
     CH_HELM_S_GI(Kemble)
@@ -405,18 +365,14 @@ class XtdGearInfos {
     CH_HELM_S_GI(King)
     CH_HELM_S_GI(LeDoux)
     CH_HELM_S_GI(Link)
-    CH_HELM_S_GI(Louie)
     CH_HELM_S_GI(Luerssen)
     CH_HELM_S_GI(Mitchell)
     CH_HELM_S_GI(Moss)
-    CH_HELM_S_GI(Neo)
     CH_HELM_S_GI(Obi)
     CH_HELM_S_GI(OConnell)
     CH_HELM_S_GI(Oliver)
-    CH_HELM_S_GI(Pandem)
     CH_HELM_S_GI(Parker)
     CH_HELM_S_GI(Quebec)
-    CH_HELM_S_GI(Romanov)
     CH_HELM_S_GI(Schultz)
     CH_HELM_S_GI(Shen)
     CH_HELM_S_GI(Sine)
@@ -425,7 +381,6 @@ class XtdGearInfos {
     CH_HELM_S_GI(Simmons)
     CH_HELM_S_GI(Smith)
     CH_HELM_S_GI(Spector)
-    CH_HELM_S_GI(Speirs)
     CH_HELM_S_GI(Styx)
     CH_HELM_S_GI(Walker)
     CH_HELM_S_GI(Waylen)
